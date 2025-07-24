@@ -1,0 +1,60 @@
+.hero-overlay {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    max-width: 600px;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+    padding: 1rem; 
+    z-index: 2;
+}
+
+.hero-overlay h1 {
+    color: #E50914; 
+    font-weight: 700;
+}
+
+.hero-overlay .text-warning {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-overlay p {
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.hero-overlay p.text-muted {
+    font-style: italic;
+}
+
+.btn-watch-now {
+    background-color: #E50914;
+    border-color: #E50914;
+    font-weight: 700;
+    margin-right: 1rem;
+    box-shadow: 0 4px 6px rgba(229, 9, 20, 0.4);
+    transition: background-color 0.3s ease;
+}
+
+.btn-watch-now:hover {
+    background-color: #b70e0e;
+    border-color: #b70e0e;
+}
+
+.btn-watchlist {
+    border-color: #E50914;
+    color: #E50914;
+    font-weight: 700;
+    box-shadow: 0 4px 6px rgba(229, 9, 20, 0.4);
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+.btn-watchlist:hover {
+    background-color: #E50914;
+    color: #121212;
+}

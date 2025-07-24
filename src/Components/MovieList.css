@@ -1,0 +1,37 @@
+.movie-list-wrapper {
+  background-color: #141414;
+  padding: 40px 20px;
+}
+
+.movie-list-title {
+  font-size: 56px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #E50914;
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.8),
+    0 0 10px #E50914;
+  font-family: 'Segoe UI Black', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.title-only {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.button-only {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 20px;
+}

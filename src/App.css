@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+.movie-section h2 {
+    font-size: 2rem;
+    color: #E50914;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.carousel-title {
+    font-size: 56px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #E50914; 
+    text-shadow:
+        2px 2px 4px rgba(0,0,0,0.8),
+        0 0 10px #E50914;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI Black', Tahoma, Geneva, Verdana, sans-serif;
+}
